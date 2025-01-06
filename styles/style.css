@@ -1,0 +1,725 @@
+* {
+    box-sizing: border-box;
+    font-family: "Alata", serif;
+
+}
+
+body {
+    max-width: 1440px;
+}
+
+nav {
+    background-image: url("../images/mobile/image-hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 10%;
+    padding-top: 5%;
+    padding-bottom: 10px;
+}
+
+nav strong {
+    color: white;
+    font-size: 24px;
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    position: relative;
+    left: 55%;
+    bottom: 30px;
+   
+}
+
+nav li {
+    padding-left: 20px;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav li a:hover {
+   color: hsl(0, 0%, 55%);
+}
+
+nav p{
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: lighter;
+    border: 1px solid white;
+    width: 550px;
+    font-size: 52px;
+    line-height: 52px;
+    padding: 5%;
+    font-family: "Josefin Sans", serif;
+   
+}
+
+nav img {
+    display: none;
+}
+
+.close {
+   display: none;
+}
+
+main {
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+article{
+    position: absolute;
+    left: 48%;
+    top: 130%;
+    width: 630px;
+    padding: 6%;
+    background-color: white;
+}
+
+article h1 {
+    text-transform: uppercase;
+    font-size: 42px;
+    line-height: 40px;
+    font-family: "Josefin Sans", serif;
+    font-weight: 300;
+}
+
+article p {
+    color: hsl(0, 0%, 55%);
+}
+
+
+.creations {
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.creations h1 {
+    text-transform: uppercase;
+    font-family: "Josefin Sans", serif;
+    font-size: 38px;
+    font-weight: 300;
+}
+
+.creations button {
+    position: relative;
+    left: 77%;
+    bottom: 70px;
+    text-transform: uppercase;
+    font-family: "Josefin Sans", serif;
+    letter-spacing: 4px;
+    padding: 1% 2%;
+    background-color: white;
+    cursor: pointer;
+}
+
+.creations button:hover {
+   background-color: hsl(0, 0%, 55%);
+   color: white;
+}
+
+
+.movies {
+    display: grid;
+    grid-template-areas: 'earth arcade team grid'
+                         'from pocket curiosity fisheye';
+}
+
+/* img */
+.earth {
+    grid-area: earth;
+    width: 250px;
+    height: 400px;
+    padding-top: 10px;
+    padding-right: 20px;
+    
+   
+}
+
+.deep {
+    position: absolute;
+    text-transform: uppercase;
+    color: white;
+    top: 272%;
+    left: 13%;
+    font-size: 32px;
+    font-family: "Josefin Sans", serif;
+    font-weight: 300;
+    width: 130px;
+}
+
+/* img */
+
+.arcade {
+    grid-area: arcade;
+    width: 250px;
+    height: 400px;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+
+.night {
+    position: absolute;
+    top: 272%;
+    left: 33%;
+    width: 130px;
+    font-size: 32px;
+    font-family: "Josefin Sans", serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: white;
+}
+
+/* img */
+
+.team {
+    grid-area: team;
+    width: 250px;
+    height: 400px;
+    padding-top: 10px;
+    padding-right: 20px;
+   
+    
+ }
+
+
+ .soccer {
+   position: relative;
+   left: 210%;
+   bottom: 485px;
+   width: 150px;
+   text-transform: uppercase;
+   font-size: 32px;
+   font-family: "Josefin Sans", serif;
+    font-weight: 300;
+    color: white;
+  
+ }
+
+ /* img */
+
+ .grid {
+    grid-area: grid;
+    width: 250px;
+    height: 400px;
+    padding-top: 10px;
+    padding-right: 20px;
+    margin-right: 90px;
+    
+ }
+
+ .the {
+    position: relative;
+    left: 215%;
+    bottom: 480px;
+    text-transform: uppercase;
+    font-size: 32px;
+    font-family: "Josefin Sans", serif;
+    font-weight: 300;
+    color: white;
+    width: 100px;
+ }
+
+ /* img */
+ .above {
+    grid-area: from;
+    width: 250px;
+    height: 400px;
+    padding-top: 10px;
+    padding-right: 20px;
+  
+ }
+
+ .up {
+    text-transform: uppercase;
+    font-size: 32px;
+    font-family: "Josefin Sans", serif;
+    font-weight: 300;
+    color: white;
+    width: 200px;
+    position: relative;
+    right: 190%;
+    bottom: 100px;
+ }
+
+
+ /* img */
+
+ .pocket {
+    grid-area: pocket;
+    width: 250px;
+    height: 400px;
+    padding-top: 10px;
+    padding-right: 20px;
+   
+  
+ }
+
+ .borealis {
+    text-transform: uppercase;
+    font-size: 32px;
+    font-family: "Josefin Sans", serif;
+    font-weight: 300;
+    color: white;
+    width: 260px;
+    position: relative;
+    right: 145%;
+    bottom: 100px;
+ }
+
+ /* img */
+
+ .curiosity {
+    grid-area: curiosity;
+    width: 250px;
+    height: 400px;
+    padding-top: 10px;
+    padding-right: 20px;
+   
+ }
+
+ .curious {
+    text-transform: uppercase;
+    font-size: 32px;
+    font-family: "Josefin Sans", serif;
+    font-weight: 300;
+    width: 200px;
+    position: relative;
+    left: 210%;
+    bottom: 155px;
+    color: white;
+    
+ }
+
+ /* img */
+
+ .fisheye {
+    grid-area: fisheye;
+    width: 250px;
+    height: 400px;
+    padding-top: 10px;
+    padding-right: 20px;
+   
+   
+ }
+
+ .fish {
+    text-transform: uppercase;
+    font-size: 32px;
+    font-family: "Josefin Sans", serif;
+    font-weight: 300;
+    color: white;
+    width: 150px;
+    position: relative;
+    left: 210%;
+    bottom: 150px;
+    
+ }
+
+ input {
+    display: none;
+ }
+
+
+ footer {
+    border: 1px solid black;
+    padding-left: 10%;
+    background-color: black;
+ }
+
+ footer h2 {
+    color: white;
+ }
+
+ footer ul {
+    list-style: none;
+    display: flex;
+    position: relative;
+    right: 40px;
+   
+ }
+
+ footer ul li {
+    padding-right: 20px;
+ }
+
+ footer ul li a {
+    text-decoration: none;
+    color:white;
+    font-family: "Josefin Sans", serif;
+    font-weight: 100;
+ }
+
+ footer ul li a:hover {
+   color: hsl(0, 0%, 55%);
+}
+
+ footer i {
+    padding-left: 10px;
+    color: white;
+    position: relative;
+    left: 78%;
+    bottom: 80px;
+    cursor: pointer;
+ }
+
+ footer i:hover {
+   color: hsl(0, 0%, 55%);
+ }
+
+ footer span {
+    color: white;
+    position: relative;
+    left: 56.5%;
+    bottom: 30px;
+    font-family: "Josefin Sans", serif;
+    font-weight: 100;
+ }
+
+ footer p {
+    display: none;
+ }
+
+
+ @media screen and ( max-width: 978px) {
+   
+  
+    
+    nav strong {
+        color: white;
+        font-size: 35px;
+    
+    }
+    
+
+    nav ul {
+      position: absolute;
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      left: 65%;
+      bottom: 45px;
+      width: 180px;
+      display: none;
+      
+      
+      
+     
+  }
+  
+  nav li {
+      padding-bottom: 20px;
+      padding-top: 10px;
+  }
+  
+  nav li a {
+      color: white;
+      text-decoration: none;
+  }
+
+  nav li a:hover {
+   color: aqua;
+  
+}
+
+    nav img {
+        display: inline-block;
+        position: relative;
+        left: 50%;
+        width: 30px;
+        cursor: pointer;
+
+    }
+
+   .close {
+      display:inline-block;
+      width: 10px;
+      position: relative;
+      bottom: 315px;
+      left: 350px;
+      
+
+    }
+    
+
+    
+    nav p{
+        font-weight: 300;
+        width: 430px;
+       
+       
+    }
+
+
+
+    main {
+        margin-top: 30%;
+        margin-left: 5%;
+    }
+
+    main img {
+        width: 100%;
+        padding-right: 5%;
+    }
+    
+    article{
+        position: relative;
+        left: 23%;
+        padding: 0%;
+        
+        
+    }
+    
+    article h1 {
+        position: relative;
+        right: 4%;
+        width: 350px;
+    }
+    
+    article p {
+        width: 300px;
+    }
+
+
+   
+    
+    .creations h1 {
+        margin-left: 12%;
+        font-size: 42px;
+        
+        
+    }
+    
+    .creations button {
+        display: none;
+    }
+
+   
+    .movies {
+        display: grid;
+        grid-template-areas: 
+        'earth'
+        'arcade' 
+        'team'
+        'grid'                   
+        'from' 
+        'pocket' 
+        'curiosity'
+        'fisheye';
+        position: relative;
+        right: 8%;
+        
+         
+    }
+    
+    /* img */
+    .earth {
+        grid-area: earth;
+        width: 550px;
+        height: 200px;
+       
+    }
+    
+    .deep {
+        position: absolute;
+        top: 5%;
+        left: 30px;
+        
+    }
+    
+    /* img */
+    
+    .arcade {
+        grid-area: arcade;
+        width: 550px;
+        height: 200px;
+
+    }
+    
+    .night {
+        position: absolute;
+        top: 15%;
+        left: 6%;
+    }
+    
+    /* img */
+    
+    .team {
+        grid-area: team;
+        width: 550px;
+        height: 200px;
+       
+        
+     }
+    
+    
+     .soccer {
+       position: relative;
+       left: 4%;
+       bottom: 1700%;
+       
+      
+     }
+    
+     /* img */
+    
+     .grid {
+        grid-area: grid;
+        width: 550px;
+        height: 200px;
+        
+     }
+    
+     .the {
+        position: relative;
+        left: 4%;
+        bottom: 1500%;
+       
+     }
+    
+     /* img */
+     .above {
+        grid-area: from;
+        width: 550px;
+        height: 200px;
+      
+     }
+    
+     .up {
+    
+        position: relative;
+        left: 4%;
+        bottom: 1270%;
+     }
+    
+    
+     /* img */
+    
+     .pocket {
+        grid-area: pocket;
+        width: 550px;
+        height: 200px;
+       
+      
+     }
+    
+     .borealis {
+     
+        position: relative;
+        left: 4%;
+        bottom: 1070%;
+     }
+    
+     /* img */
+    
+     .curiosity {
+        grid-area: curiosity;
+        width: 550px;
+        height: 200px;
+       
+     }
+    
+     .curious {
+        
+        position: relative;
+        left: 4%;
+        bottom: 850%;
+        
+        
+     }
+    
+     /* img */
+    
+     .fisheye {
+        grid-area: fisheye;
+        width: 550px;
+        height: 200px;
+       
+       
+     }
+    
+     .fish {
+        position: relative;
+        left: 4%;
+        bottom: 650%;
+        
+    
+     }
+
+     input {
+        display: block;
+        padding: 2% 10%;
+        font-size: 28px;
+        position: relative;
+        bottom: 10px;
+        left: 20%;
+        background-color: white;
+        cursor: pointer;
+
+
+     }
+
+     input:hover {
+      background-color: hsl(0, 0%, 55%);
+      color: white;
+     }
+
+     footer {
+       
+        padding-left: 28%;
+        padding-bottom: 20%;
+   
+      
+     }
+    
+     footer h2 {
+        color: white;
+        font-size: 42px;
+     }
+    
+     footer ul {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 8%;
+       
+     }
+    
+     footer ul li {
+        padding-top: 20px;
+     }
+    
+     footer ul li a {
+        font-weight: 400;
+        font-size: 21px;
+     }
+    
+     footer i {
+        color: white;
+        position: relative;
+        left: 0;
+        bottom: 0;
+        top: 60px;
+        font-size: 42px;
+     }
+    
+     footer span {
+        display: none;
+     }
+
+     footer p {
+        display: inline-block;
+        color: white;
+        position: relative;
+        top: 100px;
+        right: 30px;
+     }
+
+   
+ }
